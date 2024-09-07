@@ -1,0 +1,331 @@
+
+  
+  .title {
+    margin: 10px auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    font-family: kaushan Script;
+    font-size: 2rem;
+    font-weight: 900;
+    border-bottom: 2px solid;
+  }
+
+  .summary-des{
+    margin: 10px 0 20px 0;
+  }
+  
+  .summary-desc {
+    font-size: 18px;
+    text-align: center;
+  
+  
+    @media (max-width: 768px) {
+      margin-top: 12px;
+      font-size: 16px;
+    }
+  }
+  
+  .timelineSection {
+    width: 100%;
+    /* max-width: 1000px; */
+    margin-top: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 12px;
+  }
+  
+  .eduDiv {
+    /* flex: 1; */
+    margin: 20px auto 0;
+    /* flex-direction: column; */
+    background: linear-gradient(90.21deg,
+        rgba(170, 54, 124, 0.5) -5.91%,
+        rgba(74, 47, 189, 0.5) 111.58%);
+    border-radius: 10px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    padding: 0px 0px 40px 0px;
+  
+    @media (max-width: 960px) {
+      padding: 0px;
+    }
+  }
+  
+  .wrapper {
+    position: relative;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    width: 100%;
+    /* max-width: 1350px; */
+    gap: 12px;
+  
+    @media (max-width: 960px) {
+      flex-direction: column;
+    }
+  }
+  
+  .experience-container {
+    width: 100%;
+    /* margin: 20px auto 0; */
+  }
+  
+  h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+    font-weight: 900;
+    border-bottom: 2px solid;
+  }
+  
+  .experience {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background: linear-gradient(90.21deg,
+        rgba(170, 54, 124, 0.5) -5.91%,
+        rgba(74, 47, 189, 0.5) 111.58%);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .experience-details {
+    /* flex: 1; */
+  }
+  
+  .year {
+    font-size: 10px;
+    color: #808080;
+  }
+  
+  
+  .position {
+    font-size: 1rem;
+    color: #808080;
+  }
+  
+  .summary-description {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .grade {
+    display: flex;
+  }
+  
+  .cgpa {
+    font-size: 15px;
+  }
+  
+  .percent {
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-left: 0.7rem;
+  }
+  
+  .summary {
+    /* display: flex; */
+    /* flex: 1; */
+    /* margin: 20px auto 0; */
+    /* flex-direction: column; */
+    border-radius: 10px;
+  }
+  
+  
+  .class {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: start;
+  }
+  
+  .class span {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0.5rem 0 0 4rem;
+  }
+  
+  .grade {
+    display: flex;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .class {
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      margin-bottom: 10px;
+    }
+  
+    .edu-icon {
+      font-size: 1.3rem !important;
+      margin-bottom: 3px;
+    }
+  
+    .class span {
+      font-size: 13px;
+      margin-bottom: 2px;
+      margin-left: 0;
+    }
+  
+  
+    p {
+      font-size: 10px;
+      margin: auto;
+      margin-bottom: 0 !important;
+    }
+  
+    .grade {
+      display: flex;
+      align-items: center;
+      margin: auto;
+    }
+  
+    .cgpa {
+      font-size: 10px;
+    }
+  
+    .percent {
+      font-size: 13px !important;
+      margin: auto;
+    }
+  }
+  
+  .summary {
+    display: flex;
+    width: 90%;
+    margin: 20px auto 0;
+    flex-direction: column;
+    background: linear-gradient(90.21deg,
+        rgba(170, 54, 124, 0.5) -5.91%,
+        rgba(74, 47, 189, 0.5) 111.58%);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    /* Added transition for smooth scaling */
+  }
+  
+  .summary-description {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  
+    @media only screen and (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+  
+  .top {
+    width: 100%;
+    display: flex;
+    gap: 12px
+  }
+  
+  .skill {
+    font-size: 15px;
+    font-weight: 400;
+  
+    @media only screen and (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+  
+  .itemWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .skills {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin-top: -10px;
+  }
+  
+  .date {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+  
+    @media only screen and (max-width: 768px) {
+      font-size: 10px;
+    }
+  }
+  
+  .company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .role {
+    font-size: 18px;
+    font-weight: 600;
+    @media only screen and (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+  .summary-des{
+    font-size: 18px;
+    padding: 0 50px;
+  }
+  .body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kaushan Script';
+  }
+  .body h6{
+    font-family: Gumela;
+    font-size: 30px;
+  
+  }
+  .body h6{
+    font-family: Gumela;
+    font-size: 30px;
+  }
+  .body h5{
+    font-family: Gumela;
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: 500px){
+    .summary-des{
+     padding: 0 !important;
+    }
+    .title{
+        font-size: 1.5rem !important;
+    }
+   
+  }
+  
+  
+
+  
+  
+
+  
+
+  
+  
+  
+
+  

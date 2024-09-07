@@ -1,0 +1,114 @@
+.skill {
+  display: flex;
+  width: 100% !important;
+  margin: auto;
+  margin-top: 50px;
+}
+.container{
+  width: 100% !important;
+  max-width: 1377px;
+  
+}
+.skill-container {
+  border-radius: 10px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  padding: 20px 0;
+}
+.skill-bx {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.skill-bx h2 {
+  margin: 30px auto;
+  width: 100px;
+  font-family: kaushan Script;
+  font-size: 2rem;
+  font-weight: 900;
+  border-bottom: 2px solid;
+  display: block;
+}
+.skill-container h2 {
+  width: 160px !important;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+.skill-slider {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: black;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: 220px;
+  height: 7rem;
+}
+.item h1 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-left: 0px !important;
+  text-align: center;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.icon {
+  margin-top: 10px;
+}
+.label {
+  position: absolute;
+  margin-top: 75px;
+  margin-right: 3px;
+}
+@media only screen and (max-width: 600px) {
+  .skill-slider {
+    flex-direction: column !important;
+  }
+  .react-multi-carousel-item {
+    width: 180px !important;
+  }
+  .skill-bx h2 {
+    margin: 2rem auto 0;
+    font-size: 1rem;
+    width: 55px;
+  }
+  .skill-container h2 {
+    width: 87px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+  }
+  .item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .item h1 {
+    margin: 0 !important
+  }
+}
+
+.react-multi-carousel-item {
+  width: 250px !important;
+}

@@ -1,0 +1,58 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  margin: 1rem auto 2rem;
+}
+.contact-left {
+  flex: 1;
+}
+.contact-left > h1 {
+  font-size: 2.5 rem;
+  display: block;
+  margin: auto;
+}
+.contact-icon {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin: 1rem auto 0;
+}
+.contact-icon > a {
+  transform: scale(1.7);
+  color: white;
+  opacity: 0.7;
+}
+.contact-icon > a:hover {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(2);
+}
+.touch {
+  display: flex;
+  align-items: center;
+  margin: 0px auto 0px;
+  justify-content: center;
+  gap: 10px;
+}
+.contact-right {
+  padding: 10px;
+  flex: 1;
+  border-radius: 10px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+}
+.touch-icon {
+  transform: scale(1.2);
+  color: white;
+  opacity: 0.7;
+}
+.touch-icon:hover {
+  transform: scaleX(2);
+  color: white;
+  opacity: 1;
+}

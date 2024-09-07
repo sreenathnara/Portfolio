@@ -1,0 +1,71 @@
+
+
+.class {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.class span {
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 10px;
+}
+p {
+  padding: 0;
+  margin: 1rem 0 0 4rem;
+}
+.grade {
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  margin-top: -5px;
+}
+@media only screen and (max-width: 600px) {
+  .class {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .edu-icon {
+    font-size: 3px !important;
+    margin-bottom: 3px;
+  }
+  .class span {
+    font-size: 7px;
+    margin-bottom: 2px;
+    margin-left: 0;
+  }
+  .year {
+    font-size: 0.7rem !important;
+  }
+  p {
+    font-size: 10px;
+    margin: auto;
+    margin-bottom: 0 !important;
+  }
+  .grade {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  .cgpa {
+    font-size: 10px;
+  }
+  .percent {
+    font-size: 13px !important;
+    margin: auto;
+  }
+}
+.education {
+  display: flex;
+  width: 90%;
+  margin: 20px auto 0;
+  flex-direction: column;
+
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out; /* Added transition for smooth scaling */
+}
+

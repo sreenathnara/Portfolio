@@ -1,0 +1,53 @@
+.App {
+  overflow: hidden;
+  background-color: #282c34;
+  color: white;
+  letter-spacing: 2px;
+}
+.button {
+  padding: 7px 10px;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+}
+
+body{
+  font-family: ;
+}
+
+.common {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.common h1 {
+  text-align: center;
+  border-bottom: 2px solid;
+  font-family: 'Kaushan Script'; /* Corrected font family */
+  font-size: 2rem;
+  font-weight: 900;
+  /* width: 50%; */
+}
+.edu:hover {
+  border-bottom: 0px solid;
+}
+hr {
+  background-image: white;
+  position: absolute;
+  width: 85%;
+}
+h1 {
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 1000px) {
+  .common {
+    font-size: 1rem;
+    margin: 3rem auto 0;
+    display: block;
+    width: 177px;
+  }
+}
+
+

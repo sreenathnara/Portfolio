@@ -1,0 +1,106 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: 5px auto;
+}
+.nav-left {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 0.5rem;
+}
+.avatar {
+  width: 50px;
+}
+.nav-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.nav-title {
+  font-family: Kaushan Script;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.nav-right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+.nav-list {
+  margin-right: 40px;
+}
+.nav-list > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+.nav-list > ul > a {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  padding-right: auto !important;
+  padding-top: 15px;
+}
+.nav-list > ul > a:hover {
+  cursor: pointer;
+  color: #008f7a;
+  transform: scale(1.1);
+}
+
+.nav-button {
+  width: 8rem;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.nav-button a {
+  text-decoration: none;
+  color: white;
+}
+.nav-button:hover {
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .nav-brand {
+    justify-content: center;
+  }
+  .nav-right {
+    flex-direction: column;
+  }
+  .nav-list > ul {
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .nav-brand {
+    justify-content: center;
+  }
+  .nav-list > ul {
+    flex-direction: column;
+    gap: 0;
+  }
+}
